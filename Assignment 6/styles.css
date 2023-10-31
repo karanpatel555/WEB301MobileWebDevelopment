@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #d45b5b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, input, textarea, button {
+    font-size: 16px; 
+}
+
+.group {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Mobile Styles (Up to 600px) */
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(14, 151, 197);
+    }
+
+    label {
+        font-size: 24px; 
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 100%;
+        font-size: 24px;
+    }
+}
+
+/* Tablet and Desktop Styles (601px and above) */
+@media (min-width: 601px) {
+    body {
+        background-color: rgb(28, 144, 28); 
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: auto;
+    }
+}
