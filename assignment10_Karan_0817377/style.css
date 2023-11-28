@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+    .image-order {
+        order: 3;
+    }
+    .header-order {
+        order: 1;
+    }
+    .table-order {
+        order: 2;
+    }
+}
